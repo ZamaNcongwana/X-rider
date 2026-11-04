@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Meet Sokhulu">
+<meta property="og:description" content="Sokhulu is a young, passionate and dedicated car sales consultant currently working at Kia Pinetown. He is committed to helping customers find the perfect vehicle to match their needs, lifestyle and budget.">
+<!-- Social Media Preview Image -->
+<meta property="og:image" content="https://web.facebook.com/photo/?fbid=1674213100258902&set=a.106504490363112">
+<meta name="twitter:title" content="Meet Sokhulu">
+<meta name="twitter:description" content="Meet Sokhulu, your dedicated car sales consultant at Kia Pinetown.">
+
+
+<title>Sokhulu</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Background video */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.60);
+    z-index: -1;
+}
+
+/* Main landing page */
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.social-buttons {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: 0.3s;
+}
+
+.social-buttons a:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.tiktok {
+    background: #111111;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.download {
+    background: #E6A323;
+}
+
+.social-buttons i {
+    font-size: 21px;
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- BACKGROUND VIDEO -->
+<video class="video-background" autoplay muted loop playsinline>
+    <source src="video/sokhulu.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<!-- LANDING PAGE -->
+<div class="container">
+
+    <h1>Meet Sokhulu</h1>
+
+    <p>Sokhulu is a young, passionate and dedicated car sales consultant currently working at Kia Pinetown. He is committed to helping customers find the perfect vehicle to match their needs, lifestyle and budget.</p>
+
+    <div class="social-buttons">
+
+        <!-- FACEBOOK -->
+        <a href="https://web.facebook.com/thubeh.mthiyane"
+        target="_blank" class="facebook">
+            <i class="fab fa-facebook"></i>
+            Facebook
+        </a>
+
+        <!-- TIKTOK -->
+        <a href="https://www.tiktok.com/@sokhulu888?_=r1&_t-ZS-9B7s7pobtFm"
+        target="_blank" class="tiktok">
+            <i class="fab fa-tiktok"></i>
+            TikTok
+        </a>
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/27818041660"
+        target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            WhatsApp
+        </a>
+
+        <!-- PDF DOWNLOAD -->
+        <a href="pdf/Unleash Your Adventurous Spirit with the X-Rider!.pdf"
+        download class="download">
+            <i class="fas fa-file-pdf"></i>
+            Download PDF
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 Your Brand. All Rights Reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>
+
